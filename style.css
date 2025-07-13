@@ -1,0 +1,102 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #f1f2f6;
+    }
+    header {
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1e1e2f;
+      border-bottom: 1px solid #2f3542;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      color: #70a1ff;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #dcdde1;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #70a1ff;
+    }
+    .hero {
+      padding: 5rem 2rem;
+      text-align: center;
+      background-color: #1e1e2f;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      color: #ffffff;
+    }
+    .hero p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #a4b0be;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 30px;
+      background-color: #3742fa;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #2f3de2;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      color: #ffffff;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background-color: #2f3542;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h4 {
+      color: #70a1ff;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1e1e2f;
+      color: #a4b0be;
+    }
+    a {
+      color: #70a1ff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media(max-width: 600px) {
+      .hero h2 { font-size: 2.2rem; }
+      .hero p { font-size: 1rem; }
+    }
